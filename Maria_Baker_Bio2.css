@@ -1,0 +1,74 @@
+/*CSS does not require any initial definitions or commands unlike HTML which requires the "<!DOCTYPE html> declaration and <html></html> tags required by HTML.*/
+/*Define the backgroud color.*/
+body {
+	background-color: #efeee7;
+	/*Zero out the marging and padding in both the body and h1 elements to ensure the heading is at the very top of the page*/
+	margin: 0;
+	padding: 0;
+	/*Define a font family.  A font family is used for backup in case some browsers do not support the desired font. */
+	font-family: Georgia, "Times New Roman" Times, serif;
+	/*Define the font size.*/
+	font-size: 18px;
+	/*Define the line height.  The line height determines how much space there is between lines.*/
+	line-height: 150%;
+}
+
+h1 {
+	/*Define the header font color to be the same as the body background color.*/
+	color: #eee;
+	/*Define the header background color to be black*/
+	background-color: #333333;
+	/*Zero out the marging and padding in both the body and h1 elements to ensure the heading is at the very top of the page*/
+	margin: 0;
+	/*Center the text.*/
+	text-align: center;
+	/*Add 20px padding to the top and bottom to create space around the content, making the header larger.*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+a {
+	/*Change the color of the hyperlinks.*/
+	color: #d21034;
+}
+
+.container {
+	/*Define the container width to accomodate 1024px resolution so that the website will render without scroll bars on most computers.*/
+	width: 1024px;
+	/*Zero out top and bottom margin and use "auto" to auto margin the left and right.*/
+	margin: 0 auto;
+}
+
+#bio-image {
+	width: 200px;
+	height: 250px;
+	margin-right: 20px;
+	margin-left: 20px;
+	float: left;
+}
+#main-bio {
+	width: 70%;
+	float: left;
+
+}
+
+#contact-info {
+	width: 30%;
+	float: left;
+}
+
+}
+ul {
+	float: left;
+	width: 30%;
+	margin: 10px;
+	li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+}
